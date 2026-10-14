@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ray Bedford | Strategic Cyber Defense & Infrastructure Architect</title>
-    <meta name="description" content="Ray Bedford — Strategic Cyber Defense & Infrastructure Architect. Founding team member at Versant Media. Specializing in M365 hardening, SIEM/SOAR optimization, and zero-to-one architecture consulting.">
+    <title>Ray Bedford | Fractional CISO & CIO — Strategic Cyber Defense & IT Leadership</title>
+    <meta name="description" content="Ray Bedford — Fractional CISO & CIO. Strategic technology advisor, founding cyber architect at Versant Media, and enterprise infrastructure leader. Specializing in vCISO governance, SOC 2 audit readiness, and vCIO technology roadmaps.">
     <meta name="author" content="Ray Bedford">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ray Bedford | Strategic Cyber Defense & Infrastructure Architect">
-    <meta property="og:description" content="Engineering zero-to-one architectures. From building media giants to high-stakes infrastructure consulting.">
+    <meta property="og:title" content="Ray Bedford | Fractional CISO & CIO — Strategic Cyber Defense & IT Leadership">
+    <meta property="og:description" content="On-demand vCISO and vCIO advisory. Protecting enterprise value, navigating compliance (SOC 2/NIST), and architecting scalable IT infrastructure for growth-stage companies.">
     <meta property="og:url" content="https://raybedford.com">
     <meta property="og:site_name" content="Ray Bedford">
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Ray Bedford | Strategic Cyber Defense & Infrastructure Architect">
-    <meta name="twitter:description" content="Engineering zero-to-one architectures. From building media giants to high-stakes infrastructure consulting.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ray Bedford | Fractional CISO & CIO">
+    <meta name="twitter:description" content="On-demand vCISO and vCIO advisory. Protecting enterprise value, navigating compliance (SOC 2/NIST), and architecting scalable IT infrastructure.">
 
     <link rel="canonical" href="https://raybedford.com">
     <script type="application/ld+json">
@@ -25,16 +25,33 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Ray Bedford",
-      "jobTitle": "Strategic Cyber Defense Architect & Founder",
+      "jobTitle": "Fractional CISO & CIO | Strategic Cyber Defense & IT Advisor",
       "worksFor": {
         "@type": "Organization",
         "name": "Versant Media"
       },
-      "founder": {
-        "@type": "Organization",
-        "name": "Black Artist Vault",
-        "url": "https://blackartistsvault.com"
-      },
+      "founder": [
+        {
+          "@type": "Organization",
+          "name": "Robust Business Investments",
+          "url": "https://rbinvestments.us"
+        },
+        {
+          "@type": "Organization",
+          "name": "RB Technical Solutions",
+          "url": "https://rbtechs.us"
+        }
+      ],
+      "knowsAbout": [
+        "Virtual CISO",
+        "Virtual CIO",
+        "Cybersecurity Governance",
+        "SOC 2 Compliance",
+        "Enterprise Architecture",
+        "M365 Hardening",
+        "Cloud Security",
+        "IT Budget Optimization"
+      ],
       "url": "https://raybedford.com"
     }
     </script>
@@ -70,17 +87,12 @@
     </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Satoshi:wght@300;400;500;600;700&display=swap');
-
-        @font-face {
-            font-family: 'Satoshi';
-            src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap');
 
         *, *::before, *::after { box-sizing: border-box; }
 
         body {
-            font-family: 'DM Sans', 'Satoshi', sans-serif;
+            font-family: 'DM Sans', sans-serif;
             scroll-behavior: smooth;
             background: #0c0c0c;
             color: #f5f0e8;
@@ -106,10 +118,10 @@
             background: rgba(12, 12, 12, 0.88);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.06);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.08);
         }
         .glass-nav.scrolled {
-            border-bottom-color: rgba(212, 168, 83, 0.1);
+            border-bottom-color: rgba(212, 168, 83, 0.16);
         }
 
         /* --- TYPOGRAPHY --- */
@@ -138,15 +150,26 @@
             padding-left: 1.5rem;
         }
 
-        /* --- CARDS --- */
+        /* --- CARDS & PANELS --- */
+        .advisory-card {
+            background: #161616;
+            border: 1px solid rgba(245, 240, 232, 0.06);
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .advisory-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 168, 83, 0.25);
+            box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.5);
+        }
+
         .venture-card {
             background: #161616;
             border: 1px solid rgba(245, 240, 232, 0.04);
             transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
         }
         .venture-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(212, 168, 83, 0.15);
+            transform: translateY(-4px);
+            border-color: rgba(212, 168, 83, 0.18);
             box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.5);
         }
 
@@ -156,7 +179,7 @@
             transition: all 0.4s ease;
         }
         .milestone-card:hover {
-            border-color: rgba(212, 168, 83, 0.12);
+            border-color: rgba(212, 168, 83, 0.16);
         }
 
         /* --- AMBIENT GLOW --- */
@@ -188,10 +211,6 @@
             from { opacity: 0; transform: translateY(36px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
 
         .hero-animate {
             animation: fadeUp 1s cubic-bezier(0.23, 1, 0.32, 1) both;
@@ -211,7 +230,6 @@
             transform: translateY(0);
         }
 
-        /* --- HORIZONTAL RULE --- */
         .rule-gold {
             border: none;
             height: 1px;
@@ -227,15 +245,16 @@
             <a href="/" class="text-2xl display-font tracking-tight">
                 Ray <span class="gold-text">Bedford</span>
             </a>
-            <div class="hidden lg:flex items-center space-x-10 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink-300">
-                <a href="#story" class="hover:text-gold-500 transition">Story</a>
-                <a href="#leadership" class="hover:text-gold-500 transition">Leadership</a>
-                <a href="#ventures" class="hover:text-gold-500 transition">Ventures</a>
+            <div class="hidden lg:flex items-center space-x-9 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink-300">
+                <a href="#practices" class="hover:text-gold-500 transition">Practices</a>
+                <a href="#leadership" class="hover:text-gold-500 transition">Track Record</a>
+                <a href="#models" class="hover:text-gold-500 transition">Engagements</a>
+                <a href="#ecosystem" class="hover:text-gold-500 transition">Operator Background</a>
                 <a href="/contact" class="bg-gold-500 text-ink-900 px-6 py-2.5 rounded flex items-center gap-2 hover:bg-gold-400 transition font-bold">
-                    ENGAGE <i class="fas fa-arrow-right text-[9px]"></i>
+                    SCHEDULE BRIEFING <i class="fas fa-arrow-right text-[9px]"></i>
                 </a>
             </div>
-            <button class="lg:hidden text-xl text-ink-50" onclick="toggleMenu()">
+            <button class="lg:hidden text-xl text-ink-50" onclick="toggleMenu()" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -243,57 +262,86 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="fixed inset-0 bg-ink-900 z-[60] hidden flex flex-col items-center justify-center space-y-8 text-3xl display-font">
-        <button class="absolute top-10 right-10 text-3xl text-ink-50" onclick="toggleMenu()"><i class="fas fa-times"></i></button>
-        <a href="#story" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Story</a>
-        <a href="#leadership" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Leadership</a>
-        <a href="#ventures" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Ventures</a>
-        <a href="/contact" onclick="toggleMenu()" class="gold-text">Contact</a>
+        <button class="absolute top-10 right-10 text-3xl text-ink-50" onclick="toggleMenu()" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <a href="#practices" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Practices</a>
+        <a href="#leadership" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Track Record</a>
+        <a href="#models" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Engagements</a>
+        <a href="#ecosystem" onclick="toggleMenu()" class="text-ink-50 hover:text-gold-500 transition">Operator Background</a>
+        <a href="/contact" onclick="toggleMenu()" class="gold-text">Schedule Briefing</a>
     </div>
 
     <!-- ==================== HERO ==================== -->
-    <header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <header class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
         <div class="glow-gold top-0 right-0"></div>
         <div class="glow-gold bottom-0 left-[-200px] opacity-50"></div>
 
         <div class="max-w-7xl mx-auto px-6 z-10 grid lg:grid-cols-12 gap-16 items-center">
             <div class="lg:col-span-7">
-                <div class="hero-animate hero-delay-1 inline-flex items-center space-x-3 px-5 py-2 rounded-full border border-gold-500/15 bg-gold-500/[0.04] text-gold-500 text-[10px] font-semibold uppercase tracking-[0.2em] mb-10">
-                    <span class="flex h-1.5 w-1.5 rounded-full bg-gold-500"></span>
-                    <span>Founding Team & Sr. Manager @ Versant Media</span>
+                <div class="hero-animate hero-delay-1 inline-flex items-center space-x-3 px-5 py-2 rounded-full border border-gold-500/20 bg-gold-500/[0.04] text-gold-500 text-[10px] font-semibold uppercase tracking-[0.2em] mb-8">
+                    <span class="flex h-1.5 w-1.5 rounded-full bg-gold-500 animate-pulse"></span>
+                    <span>Fractional CISO &amp; CIO &bull; Strategic IT &amp; Cyber Executive</span>
                 </div>
                 <h1 class="hero-animate hero-delay-2 text-5xl md:text-7xl lg:text-8xl mb-8 leading-[1.05] display-font">
-                    Strategic Defense <br>& Creative <span class="gradient-gold italic">Infrastructure.</span>
+                    Executive Cyber Defense <br>&amp; Strategic <span class="gradient-gold italic">IT Leadership.</span>
                 </h1>
-                <p class="hero-animate hero-delay-3 text-lg md:text-xl text-ink-300 mb-12 max-w-lg leading-relaxed font-light">
-                    Engineering zero-to-one architectures. From building media giants to high-stakes infrastructure consulting.
+                <p class="hero-animate hero-delay-3 text-lg md:text-xl text-ink-300 mb-10 max-w-xl leading-relaxed font-light">
+                    On-demand vCISO &amp; vCIO advisory for growth-stage companies, private equity portfolios, and executive teams. Translating complex technical risk into boardroom clarity, audit readiness, and resilient scale.
                 </p>
+
+                <!-- Value Highlights -->
+                <div class="hero-animate hero-delay-3 grid grid-cols-2 sm:grid-cols-3 gap-6 pt-2 pb-10 border-t border-ink-50/[0.06]">
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-wider text-gold-500">vCISO Governance</p>
+                        <p class="text-xs text-ink-300 mt-1">SOC 2 &bull; NIST CSF &bull; Threat Defense</p>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-wider text-gold-500">vCIO Strategy</p>
+                        <p class="text-xs text-ink-300 mt-1">Roadmaps &bull; Architecture &bull; Spend</p>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1">
+                        <p class="text-xs font-bold uppercase tracking-wider text-gold-500">Operator Edge</p>
+                        <p class="text-xs text-ink-300 mt-1">20+ Yrs Enterprise Experience</p>
+                    </div>
+                </div>
+
                 <div class="hero-animate hero-delay-4 flex flex-col sm:flex-row gap-4">
-                    <a href="/contact" class="bg-gold-500 text-ink-900 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:bg-gold-400 transition-all shadow-lg shadow-gold-500/10">Hire for Project</a>
-                    <a href="#story" class="border border-ink-400/20 text-ink-50 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:border-gold-500/30 hover:text-gold-500 transition">The Story</a>
+                    <a href="/contact" class="bg-gold-500 text-ink-900 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:bg-gold-400 transition-all shadow-lg shadow-gold-500/10">
+                        Schedule an Executive Briefing
+                    </a>
+                    <a href="#practices" class="border border-ink-400/20 text-ink-50 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:border-gold-500/30 hover:text-gold-500 transition">
+                        Explore Advisory Practices
+                    </a>
                 </div>
             </div>
 
             <div class="hidden lg:block lg:col-span-5 relative">
                 <div class="hero-animate hero-delay-3 relative">
-                    <div class="absolute -top-6 -left-6 w-full h-full border border-gold-500/[0.06] rounded-[28px]"></div>
+                    <div class="absolute -top-6 -left-6 w-full h-full border border-gold-500/[0.08] rounded-[28px]"></div>
 
-                    <div class="relative bg-ink-700 border border-ink-50/[0.04] p-10 rounded-[28px] overflow-hidden">
-                        <div class="absolute top-0 right-0 w-40 h-40 bg-gold-500/[0.03] rounded-full blur-[60px]"></div>
+                    <div class="relative bg-ink-700 border border-ink-50/[0.06] p-10 rounded-[28px] overflow-hidden">
+                        <div class="absolute top-0 right-0 w-48 h-48 bg-gold-500/[0.04] rounded-full blur-[60px]"></div>
 
                         <div class="relative z-10">
-                            <i class="fas fa-shield-halved text-5xl gold-text mb-8 opacity-80"></i>
-                            <p class="pull-quote text-2xl text-ink-50 mb-2 leading-snug pl-2">
-                                We build what lasts.
+                            <div class="flex items-center justify-between mb-8">
+                                <i class="fas fa-shield-halved text-4xl gold-text opacity-90"></i>
+                                <span class="text-[9px] font-mono uppercase tracking-[0.2em] px-3 py-1 rounded bg-gold-500/10 text-gold-400 border border-gold-500/20">
+                                    C-Suite On Demand
+                                </span>
+                            </div>
+
+                            <p class="pull-quote text-2xl text-ink-50 mb-4 leading-snug pl-2">
+                                Security is not a blocker. It is enterprise valuation protection.
                             </p>
                             <p class="text-sm text-ink-300 leading-relaxed mb-8 pl-2">
-                                Expert engineering for robust business infrastructure and technical solutions.
+                                High-growth businesses rarely need a full-time $350k+ C-suite hire, but they cannot afford the cost of a breach, a failed customer audit, or unstructured IT debt.
                             </p>
+
                             <hr class="border-ink-50/[0.06] mb-6">
                             <div class="flex items-center space-x-4">
-                                <div class="w-11 h-11 bg-gold-500/10 rounded-full flex items-center justify-center font-bold text-gold-500 text-xs border border-gold-500/20">RB</div>
+                                <div class="w-12 h-12 bg-gold-500/10 rounded-full flex items-center justify-center font-bold text-gold-500 text-sm border border-gold-500/25">RB</div>
                                 <div>
-                                    <p class="text-xs font-bold uppercase tracking-[0.15em] text-ink-50">Ray Bedford</p>
-                                    <p class="text-[10px] text-ink-300 uppercase tracking-widest">Independent Specialist</p>
+                                    <p class="text-sm font-bold uppercase tracking-[0.15em] text-ink-50">Ray Bedford</p>
+                                    <p class="text-[10px] text-ink-300 uppercase tracking-widest">Fractional CISO &amp; CIO &bull; Principal Advisor</p>
                                 </div>
                             </div>
                         </div>
@@ -305,30 +353,148 @@
         <div class="absolute bottom-0 left-0 right-0 rule-gold"></div>
     </header>
 
-    <!-- ==================== ABOUT / THE CREATIVE ARCHITECT ==================== -->
-    <section id="story" class="bg-ink-700">
-        <div class="max-w-5xl mx-auto px-6">
-            <div class="text-center mb-20 animate-on-scroll">
-                <div class="editorial-line mx-auto mb-8"></div>
-                <h2 class="text-4xl md:text-5xl display-font mb-6">The Creative Architect</h2>
-                <p class="text-lg text-ink-300 font-light leading-relaxed max-w-2xl mx-auto">
-                    My career is defined by a <strong class="text-ink-50">"Zero-to-One"</strong> mindset — the ability to take a complex technical vision and build it into a secure, enterprise-grade reality.
+    <!-- ==================== THE PROBLEM: WHY FRACTIONAL ==================== -->
+    <section class="bg-ink-800 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="editorial-line mx-auto mb-6"></div>
+                <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-3">The Mid-Market Dilemma</p>
+                <h2 class="text-3xl md:text-5xl display-font mb-4">Navigating the Gap Between MSPs and the Boardroom</h2>
+                <p class="text-base text-ink-300 font-light leading-relaxed max-w-2xl mx-auto">
+                    Most companies with 20 to 500 employees face three compounding technology risks that standard help desk providers cannot solve.
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-16 items-start">
-                <div class="editorial-border animate-on-scroll">
-                    <h3 class="text-xs font-bold mb-4 gold-text uppercase tracking-[0.2em]">From the Stage to the Server Room</h3>
-                    <p class="text-ink-300 leading-relaxed text-[15px]">
-                        I began my professional journey in the performing arts and youth media education. This background in creative expression taught me a fundamental truth: <strong class="text-ink-100">Infrastructure is only as strong as the people who use it.</strong> I treat systems architecture like a performance — it requires precision, timing, and a deep understanding of the audience.
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="advisory-card p-8 rounded-2xl animate-on-scroll">
+                    <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-6">
+                        <i class="fas fa-file-shield text-gold-500 text-sm"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-ink-50 mb-3">Audit &amp; Commercial Roadblocks</h3>
+                    <p class="text-sm text-ink-300 leading-relaxed">
+                        Enterprise deals stall when enterprise prospects send 200-question vendor security assessments or mandate SOC 2 Type II compliance before signing.
                     </p>
                 </div>
-                <div class="editorial-border animate-on-scroll">
-                    <h3 class="text-xs font-bold mb-4 gold-text uppercase tracking-[0.2em]">Human-Centric Defense</h3>
-                    <p class="text-ink-300 leading-relaxed text-[15px]">
-                        I am a firm believer in <strong class="text-ink-100">Human-Centric Cyber Defense</strong>. Whether I am speaking on a panel about secure artist marketplaces or consulting for a startup launch, my goal is always to make complex security feel intuitive and empowering.
+
+                <div class="advisory-card p-8 rounded-2xl animate-on-scroll">
+                    <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-6">
+                        <i class="fas fa-layer-group text-gold-500 text-sm"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-ink-50 mb-3">Outgrowing Traditional MSPs</h3>
+                    <p class="text-sm text-ink-300 leading-relaxed">
+                        Your MSP fixes tickets and resets passwords, but nobody is designing your 3-year technology architecture, optimizing SaaS spend, or protecting margins.
                     </p>
                 </div>
+
+                <div class="advisory-card p-8 rounded-2xl animate-on-scroll">
+                    <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-6">
+                        <i class="fas fa-triangle-exclamation text-gold-500 text-sm"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-ink-50 mb-3">Ransomware &amp; Insurance Pressure</h3>
+                    <p class="text-sm text-ink-300 leading-relaxed">
+                        Cyber insurance renewals demand MFA enforcement, SIEM/EDR deployment, and documented incident response plans that technical teams lack time to lead.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ADVISORY PRACTICES ==================== -->
+    <section id="practices" class="bg-ink-700">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 animate-on-scroll">
+                <div class="editorial-line mx-auto mb-8"></div>
+                <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-3">Advisory Pillars</p>
+                <h2 class="text-4xl md:text-5xl display-font mb-6">Two Specialized Disciplines. One Trusted Executive.</h2>
+                <p class="text-lg text-ink-300 font-light leading-relaxed max-w-2xl mx-auto">
+                    Engage Ray Bedford as your dedicated Virtual CISO, Virtual CIO, or combined Fractional Technology Executive to drive security governance and infrastructure excellence.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10">
+
+                <!-- Pillar 1: vCISO -->
+                <div class="advisory-card p-10 md:p-12 rounded-[28px] animate-on-scroll relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40 bg-gold-500/[0.04] rounded-full blur-[60px]"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-between mb-8">
+                            <span class="px-3.5 py-1.5 rounded-full bg-gold-500/10 text-gold-500 border border-gold-500/25 text-[10px] font-bold uppercase tracking-widest">
+                                Virtual CISO Practice
+                            </span>
+                            <i class="fas fa-shield-cat text-2xl gold-text opacity-70"></i>
+                        </div>
+
+                        <h3 class="text-3xl display-font text-ink-50 mb-4">Cyber Risk &amp; Security Governance</h3>
+                        <p class="text-sm text-ink-300 leading-relaxed mb-8">
+                            Executive-level cybersecurity leadership to protect corporate valuation, pass institutional audits, and build a culture of security without crippling developer and business velocity.
+                        </p>
+
+                        <ul class="space-y-4 mb-10 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Audit &amp; Compliance Readiness:</strong> SOC 2 Type I/II, NIST CSF, ISO 27001, and CIS Controls roadmap and audit defense.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Enterprise Threat Defense:</strong> EDR/SIEM/SOAR automation (CrowdStrike, XSOAR) and proactive vulnerability management.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Cloud &amp; M365 Hardening:</strong> Zero Trust identity architecture, Conditional Access, and Abnormal Security defense.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Board &amp; Due Diligence Representation:</strong> Executive cyber risk reporting, insurance attestation, and M&amp;A security audits.</span>
+                            </li>
+                        </ul>
+
+                        <a href="/contact" class="inline-flex items-center gap-2 text-xs font-bold text-gold-500 uppercase tracking-widest hover:text-gold-400 transition">
+                            Engage vCISO Services <i class="fas fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pillar 2: vCIO -->
+                <div class="advisory-card p-10 md:p-12 rounded-[28px] animate-on-scroll relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40 bg-gold-500/[0.04] rounded-full blur-[60px]"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-center justify-between mb-8">
+                            <span class="px-3.5 py-1.5 rounded-full bg-gold-500/10 text-gold-500 border border-gold-500/25 text-[10px] font-bold uppercase tracking-widest">
+                                Virtual CIO Practice
+                            </span>
+                            <i class="fas fa-network-wired text-2xl gold-text opacity-70"></i>
+                        </div>
+
+                        <h3 class="text-3xl display-font text-ink-50 mb-4">Strategic IT Architecture &amp; Scale</h3>
+                        <p class="text-sm text-ink-300 leading-relaxed mb-8">
+                            High-level technology strategy to ensure your digital infrastructure directly drives business goals, eliminates technical waste, and scales seamlessly as your business expands.
+                        </p>
+
+                        <ul class="space-y-4 mb-10 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">3-Year Strategic IT Roadmaps:</strong> Aligning IT modernization with revenue goals, operational scale, and exit planning.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Budget &amp; Vendor Optimization:</strong> Eliminating redundant SaaS licenses, negotiating key technology contracts, and optimizing IT spend.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Zero-to-Scale Architecture:</strong> Scalable cloud infrastructure, identity management, and business continuity architecture.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check gold-text text-xs mt-1"></i>
+                                <span class="text-ink-200"><strong class="text-ink-50">Technical Due Diligence:</strong> Assessing technical debt, IT infrastructure viability, and team capabilities for M&amp;A.</span>
+                            </li>
+                        </ul>
+
+                        <a href="/contact" class="inline-flex items-center gap-2 text-xs font-bold text-gold-500 uppercase tracking-widest hover:text-gold-400 transition">
+                            Engage vCIO Services <i class="fas fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -339,10 +505,10 @@
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="order-2 lg:order-1">
                     <div class="animate-on-scroll">
-                        <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-4">Case Study: Foundational Leadership</p>
-                        <h2 class="text-4xl md:text-5xl display-font mb-6">Launching Versant Media <span class="italic">LLC</span></h2>
+                        <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-4">Executive Case Study</p>
+                        <h2 class="text-4xl md:text-5xl display-font mb-6">Building &amp; Securing Versant Media <span class="italic">LLC</span></h2>
                         <p class="text-ink-300 leading-relaxed mb-10">
-                            As a <strong class="text-ink-100">Founding Team Member</strong> and <strong class="text-ink-100">Sr. Manager of Cyber Infrastructure</strong>, I architected the company's defense blueprint from pre-launch through rapid scale.
+                            As a <strong class="text-ink-100">Founding Team Member</strong> and <strong class="text-ink-100">Sr. Manager of Cyber Infrastructure</strong>, I architected the company's defense blueprint and scalable technology framework from pre-launch through enterprise scale.
                         </p>
                     </div>
 
@@ -350,22 +516,22 @@
                         <div class="milestone-card p-6 rounded-2xl">
                             <i class="fas fa-rocket gold-text mb-4 text-sm"></i>
                             <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">Zero to Scale</h4>
-                            <p class="text-xs text-ink-300 leading-relaxed">Architected enterprise cyber defense & SIEM/SOAR threat detection.</p>
+                            <p class="text-xs text-ink-300 leading-relaxed">Built multi-layered defense architecture with automated threat detection (XSOAR &amp; CrowdStrike).</p>
                         </div>
                         <div class="milestone-card p-6 rounded-2xl">
                             <i class="fas fa-shield-halved gold-text mb-4 text-sm"></i>
                             <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">M365 Hardening</h4>
-                            <p class="text-xs text-ink-300 leading-relaxed">Directed global M365 hardening & Abnormal Security email defense.</p>
+                            <p class="text-xs text-ink-300 leading-relaxed">Engineered global tenant hardening, Conditional Access, and Abnormal Security defense.</p>
                         </div>
                         <div class="milestone-card p-6 rounded-2xl border-gold-500/20">
-                            <i class="fas fa-palette gold-text mb-4 text-sm"></i>
-                            <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">Black Artist Vault</h4>
-                            <p class="text-xs text-ink-300 leading-relaxed">Built 1% fee marketplace engine with Square Escrow & Passkey MFA.</p>
+                            <i class="fas fa-clipboard-check gold-text mb-4 text-sm"></i>
+                            <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">SOC 2 Readiness</h4>
+                            <p class="text-xs text-ink-300 leading-relaxed">Achieved institutional SOC 2 audit readiness and passed third-party penetration audits.</p>
                         </div>
                         <div class="milestone-card p-6 rounded-2xl border-gold-500/20">
-                            <i class="fab fa-google-play gold-text mb-4 text-sm"></i>
-                            <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">Android & SOC 2</h4>
-                            <p class="text-xs text-ink-300 leading-relaxed">Published Play Store Release (API 36) with passed pen-test audit.</p>
+                            <i class="fas fa-key gold-text mb-4 text-sm"></i>
+                            <h4 class="font-bold text-sm uppercase tracking-wide text-ink-50 mb-1">Zero-Trust Identity</h4>
+                            <p class="text-xs text-ink-300 leading-relaxed">Deployed Passkey MFA, identity perimeter, and secure escrow architectures.</p>
                         </div>
                     </div>
                 </div>
@@ -374,23 +540,24 @@
                     <div class="relative bg-ink-700 border border-ink-50/[0.04] p-10 rounded-[28px]">
                         <div class="absolute top-0 left-0 w-32 h-32 bg-gold-500/[0.04] rounded-full blur-[60px]"></div>
                         <div class="relative z-10">
-                            <h3 class="text-2xl display-font mb-8">Proven Milestone Wins</h3>
-                            <ul class="space-y-5">
+                            <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-500 mb-3">Leadership Highlights</p>
+                            <h3 class="text-2xl display-font mb-8">Measurable Executive Outcomes</h3>
+                            <ul class="space-y-6">
                                 <li class="flex items-start space-x-3 text-sm">
-                                    <i class="fas fa-check gold-text mt-1 text-xs"></i>
-                                    <span class="text-ink-200">Built automated threat detection with XSOAR & CrowdStrike at Versant Media.</span>
+                                    <i class="fas fa-shield-check gold-text mt-1 text-sm"></i>
+                                    <span class="text-ink-200"><strong class="text-ink-50">Zero Critical Security Breaches:</strong> Designed and sustained resilient cyber posture through hyper-growth scaling phases.</span>
                                 </li>
                                 <li class="flex items-start space-x-3 text-sm">
-                                    <i class="fas fa-check gold-text mt-1 text-xs"></i>
-                                    <span class="text-ink-200">Directed global M365 security hardening & enterprise tool migrations.</span>
+                                    <i class="fas fa-file-contract gold-text mt-1 text-sm"></i>
+                                    <span class="text-ink-200"><strong class="text-ink-50">Audit &amp; Commercial Velocity:</strong> Enabled sales cycles by securing SOC 2 readiness and satisfying enterprise security reviews.</span>
                                 </li>
                                 <li class="flex items-start space-x-3 text-sm">
-                                    <i class="fas fa-check gold-text mt-1 text-xs"></i>
-                                    <span class="text-ink-200">Architected Black Artist Vault with Square Escrow & Passkey MFA authentication.</span>
+                                    <i class="fas fa-robot gold-text mt-1 text-sm"></i>
+                                    <span class="text-ink-200"><strong class="text-ink-50">Automated SOAR Workflows:</strong> Decreased mean time to detect (MTTD) and mean time to respond (MTTR) with automated playbooks.</span>
                                 </li>
                                 <li class="flex items-start space-x-3 text-sm">
-                                    <i class="fas fa-check gold-text mt-1 text-xs"></i>
-                                    <span class="text-ink-200">Shipped Android Native App (Target SDK 36) & achieved SOC 2 audit readiness.</span>
+                                    <i class="fas fa-users-gear gold-text mt-1 text-sm"></i>
+                                    <span class="text-ink-200"><strong class="text-ink-50">Enterprise Modernization:</strong> Led seamless migrations across global infrastructure with zero unplanned downtime.</span>
                                 </li>
                             </ul>
                         </div>
@@ -400,14 +567,94 @@
         </div>
     </section>
 
-    <!-- ==================== VENTURES / ECOSYSTEM ==================== -->
-    <section id="ventures" class="bg-ink-700">
+    <!-- ==================== ENGAGEMENT MODELS ==================== -->
+    <section id="models" class="bg-ink-800">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-20 animate-on-scroll">
                 <div class="editorial-line mx-auto mb-8"></div>
-                <h2 class="text-4xl md:text-5xl display-font mb-6">Business Ecosystem</h2>
+                <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-3">Structured Advisory</p>
+                <h2 class="text-4xl md:text-5xl display-font mb-6">Flexible Engagement Models</h2>
                 <p class="text-lg text-ink-300 font-light leading-relaxed max-w-2xl mx-auto">
-                    A portfolio of ventures spanning technology consulting, cybersecurity, and digital innovation — all under the Robust Business Investments umbrella.
+                    Designed to provide executive-level guidance matched precisely to your company's stage and complexity.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Model 1 -->
+                <div class="advisory-card p-8 rounded-2xl flex flex-col justify-between animate-on-scroll">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-500 mb-3 block">Ongoing Leadership</span>
+                        <h3 class="text-2xl display-font text-ink-50 mb-4">Fractional Executive Retainer</h3>
+                        <p class="text-xs text-ink-300 leading-relaxed mb-6">
+                            Dedicated monthly vCISO or vCIO advisory (10–25 hrs/mo). Includes weekly executive standups, board briefings, vendor governance, and ongoing roadmap execution.
+                        </p>
+                        <hr class="border-ink-50/[0.06] mb-6">
+                        <ul class="space-y-3 text-xs text-ink-200 mb-8">
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Embedded C-Suite Advisory</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Security &amp; IT Team Mentorship</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Vendor &amp; Questionnaire Defense</li>
+                        </ul>
+                    </div>
+                    <a href="/contact" class="block w-full py-3 px-4 rounded text-center text-xs font-bold uppercase tracking-wider bg-gold-500/10 text-gold-500 border border-gold-500/25 hover:bg-gold-500 hover:text-ink-900 transition">
+                        Inquire for Retainer
+                    </a>
+                </div>
+
+                <!-- Model 2 -->
+                <div class="advisory-card p-8 rounded-2xl flex flex-col justify-between border-gold-500/30 animate-on-scroll relative">
+                    <div class="absolute -top-3 right-6 bg-gold-500 text-ink-900 text-[9px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        Most Requested
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-500 mb-3 block">Fixed-Scope Sprint</span>
+                        <h3 class="text-2xl display-font text-ink-50 mb-4">Posture Audit &amp; SOC 2 Sprint</h3>
+                        <p class="text-xs text-ink-300 leading-relaxed mb-6">
+                            A 4 to 8 week diagnostic sprint. Comprehensive security gap analysis, compliance roadmap (SOC 2, ISO, NIST), and prioritized remediation plan.
+                        </p>
+                        <hr class="border-ink-50/[0.06] mb-6">
+                        <ul class="space-y-3 text-xs text-ink-200 mb-8">
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Full Cloud &amp; M365 Security Review</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> SOC 2 / Compliance Gap Assessment</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Board-Ready Executive Report</li>
+                        </ul>
+                    </div>
+                    <a href="/contact" class="block w-full py-3 px-4 rounded text-center text-xs font-bold uppercase tracking-wider bg-gold-500 text-ink-900 font-bold hover:bg-gold-400 transition">
+                        Request Posture Review
+                    </a>
+                </div>
+
+                <!-- Model 3 -->
+                <div class="advisory-card p-8 rounded-2xl flex flex-col justify-between animate-on-scroll">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-500 mb-3 block">High-Stakes Advisory</span>
+                        <h3 class="text-2xl display-font text-ink-50 mb-4">Board &amp; M&amp;A Due Diligence</h3>
+                        <p class="text-xs text-ink-300 leading-relaxed mb-6">
+                            Targeted technical and cyber risk advisory for Private Equity firms, venture investors, and acquiring companies evaluating tech debt and exposure.
+                        </p>
+                        <hr class="border-ink-50/[0.06] mb-6">
+                        <ul class="space-y-3 text-xs text-ink-200 mb-8">
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Pre-Acquisition Cyber Due Diligence</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Technical Debt &amp; Architecture Audit</li>
+                            <li class="flex items-center gap-2"><i class="fas fa-check text-gold-500 text-[10px]"></i> Post-Merger IT Integration Advisory</li>
+                        </ul>
+                    </div>
+                    <a href="/contact" class="block w-full py-3 px-4 rounded text-center text-xs font-bold uppercase tracking-wider bg-gold-500/10 text-gold-500 border border-gold-500/25 hover:bg-gold-500 hover:text-ink-900 transition">
+                        Inquire for Diligence
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== OPERATOR BACKGROUND / ECOSYSTEM ==================== -->
+    <section id="ecosystem" class="bg-ink-700">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 animate-on-scroll">
+                <div class="editorial-line mx-auto mb-8"></div>
+                <p class="gold-text font-bold uppercase tracking-[0.2em] text-[10px] mb-3">Operator Heritage</p>
+                <h2 class="text-4xl md:text-5xl display-font mb-6">The Operator Edge: 20+ Years in the Trenches</h2>
+                <p class="text-lg text-ink-300 font-light leading-relaxed max-w-2xl mx-auto">
+                    Most advisors operate from theoretical textbooks. Ray Bedford brings two decades of active technical ownership, managing infrastructure firms and scaling secure digital platforms.
                 </p>
             </div>
 
@@ -423,7 +670,7 @@
                     </div>
                     <h3 class="text-xl font-bold mb-3 display-font text-ink-50">Robust Business Investments</h3>
                     <p class="text-sm text-ink-300 leading-relaxed mb-6">
-                        Strategic holding company and advisory for technology, cybersecurity, and digital innovation ventures.
+                        Strategic holding company and advisory framework managing a portfolio of ventures across cybersecurity, IT operations, and digital platforms.
                     </p>
                     <div class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em]" style="color: #c63a2b;">
                         <span>rbinvestments.us</span>
@@ -440,7 +687,7 @@
                     </div>
                     <h3 class="text-xl font-bold mb-3 display-font text-ink-50">RB Technical Solutions</h3>
                     <p class="text-sm text-ink-300 leading-relaxed mb-6">
-                        Experienced, personalized IT consulting. Network security, managed services, and custom solutions in Houston, TX.
+                        Over 20 years of personalized IT consulting, network engineering, managed defense, and custom solutions in Houston, TX and beyond.
                     </p>
                     <div class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em]" style="color: #0e7490;">
                         <span>rbtechs.us</span>
@@ -460,18 +707,18 @@
                     <div class="flex items-center gap-2 mb-3">
                         <h3 class="text-xl font-bold display-font text-ink-50">Black Artist Vault</h3>
                         <span class="px-2 py-0.5 rounded bg-gold-500/10 text-gold-400 border border-gold-500/20 text-[9px] font-mono uppercase font-bold tracking-wider">
-                            <i class="fab fa-google-play text-[8px] mr-1"></i> Android & Web
+                            <i class="fab fa-google-play text-[8px] mr-1"></i> Android &amp; Web
                         </span>
                     </div>
                     <p class="text-sm text-ink-300 leading-relaxed mb-6">
-                        Premier marketplace & custom studio network for Black artists. 1% platform fee, escrow buyer protection, digital COAs, and live broadcasts.
+                        Premier marketplace &amp; studio network for Black artists. Engineered with Passkey MFA, Square Escrow buyer protection, and digital COAs.
                     </p>
                     <div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-ink-50/[0.04]">
                         <a href="https://blackartistsvault.com" target="_blank" class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em] hover:underline" style="color: #d4af37;">
                             <span>blackartistsvault.com</span>
                         </a>
                         <a href="https://blackartistsvault.com/trust" target="_blank" class="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest text-ink-400 hover:text-gold-400 transition">
-                            <i class="fas fa-shield-halved text-[9px]"></i> Security & Trust Portal
+                            <i class="fas fa-shield-halved text-[9px]"></i> Security &amp; Trust Portal
                         </a>
                     </div>
                 </div>
@@ -486,7 +733,7 @@
                     </div>
                     <h3 class="text-xl font-bold mb-3 display-font text-ink-50">CampusConnect</h3>
                     <p class="text-sm text-ink-300 leading-relaxed mb-6">
-                        Secure academic real-time chat application. Purpose-built communication infrastructure for campus communities.
+                        Secure academic real-time chat application. Purpose-built communication infrastructure for high-privacy campus environments.
                     </p>
                     <div class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em]" style="color: #10b981;">
                         <span>campusconnect.raybedford.net</span>
@@ -504,13 +751,15 @@
 
         <div class="max-w-4xl mx-auto px-6 text-center relative z-10 animate-on-scroll">
             <h2 class="text-4xl md:text-5xl display-font mb-6">
-                Let's Secure Your Next <span class="italic gradient-gold">Stage.</span>
+                Protect Valuation. <span class="italic gradient-gold">Scale With Confidence.</span>
             </h2>
             <p class="text-lg text-ink-300 mb-12 max-w-xl mx-auto font-light leading-relaxed">
-                Consulting for launches, strategic investments, or fractional leadership.
+                Connect directly with Ray Bedford to discuss vCISO advisory, SOC 2 audit readiness, or strategic IT modernization.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" class="bg-gold-500 text-ink-900 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:bg-gold-400 transition-all shadow-lg shadow-gold-500/10">Get in Touch</a>
+                <a href="/contact" class="bg-gold-500 text-ink-900 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:bg-gold-400 transition-all shadow-lg shadow-gold-500/10">
+                    Schedule an Executive Briefing
+                </a>
                 <a href="https://linkedin.com/in/raybedford" target="_blank" class="border border-ink-400/20 text-ink-50 text-center py-4 px-10 rounded font-bold text-sm tracking-wide hover:border-gold-500/20 hover:text-gold-500 transition flex items-center justify-center gap-3">
                     <i class="fab fa-linkedin text-sm"></i> Connect on LinkedIn
                 </a>
@@ -524,11 +773,12 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
                 <div class="mb-8 md:mb-0">
                     <p class="text-2xl display-font mb-2">Ray <span class="gold-text">Bedford</span></p>
-                    <p class="text-[10px] text-ink-400 uppercase tracking-[0.2em]">Strategic Cyber Defense & Infrastructure</p>
+                    <p class="text-[10px] text-ink-400 uppercase tracking-[0.2em]">Fractional CISO &amp; CIO &bull; Strategic Cyber Defense &amp; IT Advisory</p>
                 </div>
                 <div class="flex space-x-8 text-[11px] font-semibold uppercase tracking-[0.15em] text-ink-400">
-                    <a href="#story" class="hover:text-ink-50 transition">Story</a>
-                    <a href="#ventures" class="hover:text-ink-50 transition">Ventures</a>
+                    <a href="#practices" class="hover:text-ink-50 transition">Practices</a>
+                    <a href="#leadership" class="hover:text-ink-50 transition">Track Record</a>
+                    <a href="#models" class="hover:text-ink-50 transition">Engagements</a>
                     <a href="https://linkedin.com/in/raybedford" target="_blank" class="hover:text-gold-500 transition"><i class="fab fa-linkedin text-base"></i></a>
                 </div>
             </div>
